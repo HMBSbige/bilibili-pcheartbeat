@@ -53,6 +53,11 @@ npm install -g pm2
 pm2 start ecosystem.config.js
 ```
 
+### Docker
+```bash
+docker run -itd -p 3000:3000 ghcr.io/hmbsbige/bilibili-pcheartbeat
+```
+
 ## API
 
 Use POST method to access API, and the return data is in JSON format
